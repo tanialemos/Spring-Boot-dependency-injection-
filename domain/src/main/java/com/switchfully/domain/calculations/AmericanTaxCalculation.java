@@ -1,5 +1,8 @@
 package com.switchfully.domain.calculations;
 
+import javax.inject.Named;
+
+@Named("AmericanTaxation")
 public class AmericanTaxCalculation implements TaxCalculation {
 
     @Override
